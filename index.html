@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="./rss/style.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="title">Hari ini mau ngapain?</div>
+        <form action="#">
+            <input type="text" id="userInput">
+            <button id="addBtn">Submit</button>
+        </form>
+        <ul id="todo"></ul>
+        <div id="count">Kamu punya <span id="num"></span> tugas yang belum selesai</div>
+		<div class="btn"><button id="clearAllBtn" onclick="clearAll()">CLEAR ALL</button></div>
+    </div>
+
+    <footer><a href="https://github.com/ardwiinoo" target="_blank">ardwiinoo</a> with love</footer>
+
+    <script src="./rss/main.js"></script>
+</body>
+</html>

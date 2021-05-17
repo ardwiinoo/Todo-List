@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 1.5px;
+}
+
+html, body{
+    display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.container{
+    width: auto;
+    height: auto;
+	background: transparent;
+    
+}
+
+#title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	/* border: 1px solid black; */
+}
+
+#addBtn{
+	width: 55px;
+    padding:5px;
+	height: 30px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	background-color: blue;
+	border: none;
+    border-radius: 5px;
+}
+
+#addBtn:hover{
+    background: transparent;
+    border: 1px solid blue;
+    color: blue;
+    transition: 0.5s;
+}
+
+#userInput{
+	padding: 5px;
+	height: 30px;
+    width: 230px;
+	color: gray;
+	border: 1px solid gray;
+	box-shadow: none;
+    border-radius: 5px;
+}
+
+#todo{
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	overflow-y: auto;
+}
+
+.list{
+	margin-top: 5px;
+	position: relative;
+	border: 1px solid black ;
+    border-radius: 5px;
+    background: ghostwhite;
+}
+
+.text{
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 5px;
+	overflow-x: auto;
+	font-size: 14px;
+	background-color: ghostwhite;
+}
+
+.deleteBtn{
+	margin-left: 98px;
+    margin-top: -5px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 20px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	background-color: red;
+    border-radius: 5px;
+}
+
+.toggleClear{
+	color: gray;
+	text-decoration: line-through;
+}
+
+#count{
+	display: inline-block;
+	margin-top: 5px;
+	width: 250px;
+	height: 30px;
+	font-size: 12px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.btn{
+    text-align: center;
+    justify-content: center;
+}
+
+#clearAllBtn{
+    padding: 3px;
+	width: 70px;
+	height: 25px;
+	font-size: 11px;
+	color: white;
+	background-color: red;
+	border: none;
+    border-radius: 5px;
+}
+
+#clearAllBtn:hover{
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    transition: 0.5s;
+}
+
+footer{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    width: 120px;
+    height: 20px;
+    background: #424242;
+    opacity: 50%;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 3px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover{
+    color: orange;
+}
